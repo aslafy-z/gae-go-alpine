@@ -1,4 +1,5 @@
 FROM golang:1.7-alpine
+MAINTAINER Zadkiel Aharonian <aslafy_z@epitech.eu>
 
 ENV APPENGINE_VERSION=1.9.40
 ENV SDK=https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_linux_amd64-${APPENGINE_VERSION}.zip \
